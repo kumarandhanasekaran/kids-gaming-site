@@ -1,108 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kids Gaming Site - HERE AND NOW AI</title>
-    <meta name="description" content="Fun and educational games for kids ages 10-15 - designed with passion for innovation">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="" id="favicon-link">
-</head>
-<body>
+    <meta
+      name="description"
+      content="Fun and educational games for kids ages 10-15 - designed with passion for innovation"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/png" href="" id="favicon-link" />
+  </head>
+  <body>
     <!-- Header Section -->
     <header class="header" role="banner">
-        <nav class="navbar" role="navigation" aria-label="Main navigation">
-            <div class="nav-brand">
-                <img src="" alt="HERE AND NOW AI Logo" class="logo" id="site-logo">
-                <h1 class="site-title" id="site-title">HERE AND NOW AI</h1>
-            </div>
-            <ul class="nav-menu" role="menubar">
-                <li role="none"><a href="#games" role="menuitem">Games</a></li>
-                <li role="none"><a href="#about" role="menuitem">About</a></li>
-                <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
-                <!-- TODO: student exercise - Add more navigation items -->
-            </ul>
-        </nav>
+      <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-brand">
+          <img src="" alt="HERE AND NOW AI Logo" class="logo" id="site-logo" />
+          <h1 class="site-title" id="site-title">HERE AND NOW AI</h1>
+        </div>
+        <ul class="nav-menu" role="menubar">
+          <li role="none"><a href="#games" role="menuitem">Games</a></li>
+          <li role="none"><a href="#about" role="menuitem">About</a></li>
+          <li role="none"><a href="#contact" role="menuitem">Contact</a></li>
+          <!-- TODO: student exercise - Add more navigation items -->
+        </ul>
+      </nav>
     </header>
 
     <!-- Hero Section -->
     <section class="hero" role="banner">
-        <div class="hero-content">
-            <h2 class="hero-title" id="hero-title">Welcome to Fun Gaming!</h2>
-            <p class="hero-tagline" id="hero-tagline">Discover amazing games designed for young minds</p>
-            <!-- TODO: student exercise - Add call-to-action button -->
-            <button class="cta-button" onclick="scrollToGames()">Start Playing!</button>
-        </div>
+      <div class="hero-content">
+        <h2 class="hero-title" id="hero-title">Welcome to Fun Gaming!</h2>
+        <p class="hero-tagline" id="hero-tagline">
+          Discover amazing games designed for young minds
+        </p>
+        <!-- TODO: student exercise - Add call-to-action button -->
+        <button class="cta-button" onclick="scrollToGames()">
+          Start Playing!
+        </button>
+      </div>
     </section>
 
     <!-- Countdown Section -->
     <section class="countdown-section" aria-label="Special event countdown">
-        <h3>Next Special Event</h3>
-        <div class="countdown" id="countdown-timer">
-            <div class="countdown-item">
-                <span class="countdown-number" id="days">00</span>
-                <span class="countdown-label">Days</span>
-            </div>
-            <div class="countdown-item">
-                <span class="countdown-number" id="hours">00</span>
-                <span class="countdown-label">Hours</span>
-            </div>
-            <div class="countdown-item">
-                <span class="countdown-number" id="minutes">00</span>
-                <span class="countdown-label">Minutes</span>
-            </div>
-            <div class="countdown-item">
-                <span class="countdown-number" id="seconds">00</span>
-                <span class="countdown-label">Seconds</span>
-            </div>
+      <h3>Next Special Event</h3>
+      <div class="countdown" id="countdown-timer">
+        <div class="countdown-item">
+          <span class="countdown-number" id="days">00</span>
+          <span class="countdown-label">Days</span>
         </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="hours">00</span>
+          <span class="countdown-label">Hours</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="minutes">00</span>
+          <span class="countdown-label">Minutes</span>
+        </div>
+        <div class="countdown-item">
+          <span class="countdown-number" id="seconds">00</span>
+          <span class="countdown-label">Seconds</span>
+        </div>
+      </div>
     </section>
 
     <!-- Games Section -->
     <section class="games-section" id="games" aria-label="Available games">
-        <div class="games-header">
-            <h3>Featured Games</h3>
-            <!-- TODO: student exercise - Add search bar -->
-            <div class="search-container">
-                <input type="search" id="game-search" placeholder="Search games..." aria-label="Search games">
-                <button onclick="searchGames()" aria-label="Search">🔍</button>
-            </div>
-            <!-- TODO: student exercise - Add category filter -->
-            <div class="filter-container">
-                <select id="category-filter" onchange="filterGamesByCategory(this.value)" aria-label="Filter by category">
-                    <option value="">All Categories</option>
-                </select>
-            </div>
+      <div class="games-header">
+        <h3>Featured Games</h3>
+        <!-- TODO: student exercise - Add search bar -->
+        <div class="search-container">
+          <input
+            type="search"
+            id="game-search"
+            placeholder="Search games..."
+            aria-label="Search games"
+          />
+          <button onclick="searchGames()" aria-label="Search">🔍</button>
         </div>
-        <div class="games-grid" id="games-grid">
-            <!-- Games will be populated by JavaScript -->
+        <!-- TODO: student exercise - Add category filter -->
+        <div class="filter-container">
+          <select
+            id="category-filter"
+            onchange="filterGamesByCategory(this.value)"
+            aria-label="Filter by category"
+          >
+            <option value="">All Categories</option>
+          </select>
         </div>
+      </div>
+      <div class="games-grid" id="games-grid">
+        <!-- Games will be populated by JavaScript -->
+      </div>
     </section>
 
     <!-- About Section -->
     <section class="about-section" id="about">
-        <h3>About Us</h3>
-        <p id="about-content">We create fun and educational games for kids to learn and play!</p>
+      <h3>About Us</h3>
+      <p id="about-content">
+        We create fun and educational games for kids to learn and play!
+      </p>
     </section>
 
     <!-- Contact Section -->
     <footer class="footer" id="contact" role="contentinfo">
-        <div class="footer-content">
-            <div class="contact-info">
-                <h3>Contact Us</h3>
-                <p id="contact-email">Email: info@kidsgaming.com</p>
-                <p id="contact-phone">Phone: +1 234 567 8900</p>
-            </div>
-            <div class="social-media" id="social-links">
-                <!-- Social media links will be populated by JavaScript -->
-                <!-- TODO: student exercise - Add more social media platforms -->
-            </div>
+      <div class="footer-content">
+        <div class="contact-info">
+          <h3>Contact Us</h3>
+          <p id="contact-email">Email: info@kidsgaming.com</p>
+          <p id="contact-phone">Phone: +1 234 567 8900</p>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Kids Gaming Site. All rights reserved.</p>
+        <div class="social-media" id="social-links">
+          <!-- Social media links will be populated by JavaScript -->
+          <!-- TODO: student exercise - Add more social media platforms -->
         </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Kids Gaming Site. All rights reserved.</p>
+      </div>
     </footer>
 
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>

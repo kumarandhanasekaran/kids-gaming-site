@@ -40,7 +40,11 @@
       "ageGroup": "12-15",
       "thumb": "https://via.placeholder.com/300x200/95E1D3/FFFFFF?text=Word+Wizard",
       "url": "https://example.com/word-wizard",
-      "features": ["Dictionary Integration", "Hint System", "Achievement Badges"],
+      "features": [
+        "Dictionary Integration",
+        "Hint System",
+        "Achievement Badges"
+      ],
       "rating": 4.7,
       "playTime": "15-25 minutes"
     },
@@ -53,7 +57,11 @@
       "ageGroup": "13-15",
       "thumb": "https://via.placeholder.com/300x200/F39C12/FFFFFF?text=Science+Lab",
       "url": "https://example.com/science-lab",
-      "features": ["Virtual Experiments", "Safety Guidelines", "Scientific Method"],
+      "features": [
+        "Virtual Experiments",
+        "Safety Guidelines",
+        "Scientific Method"
+      ],
       "rating": 4.6,
       "playTime": "25-40 minutes"
     },
@@ -92,7 +100,7 @@
       "color": "#FF6B6B"
     },
     {
-      "name": "Educational", 
+      "name": "Educational",
       "description": "Learning-focused games across various subjects",
       "icon": "📚",
       "color": "#4ECDC4"
