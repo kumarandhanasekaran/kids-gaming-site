@@ -1,0 +1,145 @@
+{
+  "title": "Welcome to Kids Gaming Hub!",
+  "tagline": "Discover amazing educational games designed for young minds",
+  "description": "A fun and safe gaming platform for kids ages 10-15 featuring educational games, puzzles, and interactive learning experiences.",
+  "countdownTarget": "2025-12-25T00:00:00Z",
+  "countdownTitle": "Christmas Gaming Festival",
+  "games": [
+    {
+      "id": 1,
+      "name": "Memory Match Challenge",
+      "description": "Test your memory skills with this colorful card matching game. Perfect for improving concentration and pattern recognition!",
+      "difficulty": "Easy",
+      "category": "Memory",
+      "ageGroup": "10-12",
+      "thumb": "https://via.placeholder.com/300x200/FF6B6B/FFFFFF?text=Memory+Match",
+      "url": "https://example.com/memory-match",
+      "features": ["Single Player", "Timed Challenges", "Score Tracking"],
+      "rating": 4.8,
+      "playTime": "10-15 minutes"
+    },
+    {
+      "id": 2,
+      "name": "Math Adventure Quest",
+      "description": "Embark on an exciting mathematical journey! Solve puzzles, defeat math monsters, and collect treasures while learning.",
+      "difficulty": "Medium",
+      "category": "Educational",
+      "ageGroup": "11-14",
+      "thumb": "https://via.placeholder.com/300x200/4ECDC4/FFFFFF?text=Math+Quest",
+      "url": "https://example.com/math-adventure",
+      "features": ["Story Mode", "Multiplayer", "Progress Tracking"],
+      "rating": 4.9,
+      "playTime": "20-30 minutes"
+    },
+    {
+      "id": 3,
+      "name": "Word Wizard Academy",
+      "description": "Master the art of words! Spell your way through magical realms while expanding your vocabulary and language skills.",
+      "difficulty": "Medium",
+      "category": "Language",
+      "ageGroup": "12-15",
+      "thumb": "https://via.placeholder.com/300x200/95E1D3/FFFFFF?text=Word+Wizard",
+      "url": "https://example.com/word-wizard",
+      "features": ["Dictionary Integration", "Hint System", "Achievement Badges"],
+      "rating": 4.7,
+      "playTime": "15-25 minutes"
+    },
+    {
+      "id": 4,
+      "name": "Science Lab Explorer",
+      "description": "Conduct virtual experiments and discover the wonders of science! Learn chemistry, physics, and biology through fun activities.",
+      "difficulty": "Hard",
+      "category": "Science",
+      "ageGroup": "13-15",
+      "thumb": "https://via.placeholder.com/300x200/F39C12/FFFFFF?text=Science+Lab",
+      "url": "https://example.com/science-lab",
+      "features": ["Virtual Experiments", "Safety Guidelines", "Scientific Method"],
+      "rating": 4.6,
+      "playTime": "25-40 minutes"
+    },
+    {
+      "id": 5,
+      "name": "Geography Globe Trotter",
+      "description": "Travel the world from your screen! Learn about countries, capitals, cultures, and landmarks in this interactive geography game.",
+      "difficulty": "Easy",
+      "category": "Geography",
+      "ageGroup": "10-13",
+      "thumb": "https://via.placeholder.com/300x200/9B59B6/FFFFFF?text=Geography",
+      "url": "https://example.com/geography-game",
+      "features": ["World Map", "Cultural Facts", "Country Quizzes"],
+      "rating": 4.5,
+      "playTime": "15-20 minutes"
+    },
+    {
+      "id": 6,
+      "name": "Creative Art Studio",
+      "description": "Unleash your creativity! Digital painting, drawing tools, and art challenges to help young artists express themselves.",
+      "difficulty": "Easy",
+      "category": "Creative",
+      "ageGroup": "10-15",
+      "thumb": "https://via.placeholder.com/300x200/E67E22/FFFFFF?text=Art+Studio",
+      "url": "https://example.com/art-studio",
+      "features": ["Drawing Tools", "Color Palettes", "Gallery Sharing"],
+      "rating": 4.8,
+      "playTime": "Open-ended"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Memory",
+      "description": "Games that enhance memory and concentration",
+      "icon": "🧠",
+      "color": "#FF6B6B"
+    },
+    {
+      "name": "Educational", 
+      "description": "Learning-focused games across various subjects",
+      "icon": "📚",
+      "color": "#4ECDC4"
+    },
+    {
+      "name": "Language",
+      "description": "Word games and vocabulary builders",
+      "icon": "📝",
+      "color": "#95E1D3"
+    },
+    {
+      "name": "Science",
+      "description": "Interactive science experiments and learning",
+      "icon": "🔬",
+      "color": "#F39C12"
+    },
+    {
+      "name": "Geography",
+      "description": "Explore the world and learn about places",
+      "icon": "🌍",
+      "color": "#9B59B6"
+    },
+    {
+      "name": "Creative",
+      "description": "Art, music, and creative expression games",
+      "icon": "🎨",
+      "color": "#E67E22"
+    }
+  ],
+  "achievements": [
+    {
+      "name": "First Steps",
+      "description": "Complete your first game",
+      "icon": "🏆",
+      "points": 10
+    },
+    {
+      "name": "Memory Master",
+      "description": "Complete 5 memory games with perfect score",
+      "icon": "🧠",
+      "points": 50
+    },
+    {
+      "name": "Math Wizard",
+      "description": "Solve 100 math problems correctly",
+      "icon": "✨",
+      "points": 100
+    }
+  ]
+}
